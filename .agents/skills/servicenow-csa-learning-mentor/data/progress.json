@@ -1,0 +1,208 @@
+{
+  "schema_version": 2,
+  "revision": 0,
+  "current_week": 1,
+  "current_stage": "planning",
+  "current_topic": null,
+  "weeks": {
+    "1": {
+      "title": "ServiceNowの全体像・基本操作",
+      "topics": [
+        {"name": "ServiceNow Universityの入門コンテンツ", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Platformの基本構造", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Application Navigator", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Application", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Module", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "List", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Form", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Record", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Table", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Field", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Filter", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Sort", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Incidentなど既存データの操作", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null}
+      ],
+      "hands_on": [
+        {"task": "Application Navigatorから目的のModuleを探す", "status": "pending", "completed_at": null},
+        {"task": "Incident Listを開く", "status": "pending", "completed_at": null},
+        {"task": "Filterを設定する", "status": "pending", "completed_at": null},
+        {"task": "Recordを作成する", "status": "pending", "completed_at": null},
+        {"task": "Recordを更新する", "status": "pending", "completed_at": null},
+        {"task": "ListとFormを行き来する", "status": "pending", "completed_at": null},
+        {"task": "Table / Record / Fieldの関係を実際の画面から確認する", "status": "pending", "completed_at": null}
+      ]
+    },
+    "2": {
+      "title": "データモデル・フォーム",
+      "topics": [
+        {"name": "Table", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Record", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Field", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Dictionary", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Field Type", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Reference Field", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Form Layout", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "List Layout", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Filter", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null}
+      ],
+      "hands_on": [
+        {"task": "Tableを作成する", "status": "pending", "completed_at": null},
+        {"task": "Fieldを追加する", "status": "pending", "completed_at": null},
+        {"task": "String / Choice / Referenceなど複数のField Typeを使用する", "status": "pending", "completed_at": null},
+        {"task": "Reference Fieldを設定する", "status": "pending", "completed_at": null},
+        {"task": "Form Layoutを変更する", "status": "pending", "completed_at": null},
+        {"task": "List Layoutを変更する", "status": "pending", "completed_at": null},
+        {"task": "複数条件のFilterを作成する", "status": "pending", "completed_at": null}
+      ]
+    },
+    "3": {
+      "title": "User・Group・Role・Security",
+      "topics": [
+        {"name": "User", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Group", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Role", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Impersonation", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "ACL", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Access Controlの基本", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null}
+      ],
+      "hands_on": [
+        {"task": "Userを複数作成する", "status": "pending", "completed_at": null},
+        {"task": "Groupを作成する", "status": "pending", "completed_at": null},
+        {"task": "UserをGroupへ追加する", "status": "pending", "completed_at": null},
+        {"task": "Roleを付与する", "status": "pending", "completed_at": null},
+        {"task": "Impersonateする", "status": "pending", "completed_at": null},
+        {"task": "Roleによる画面・操作の違いを確認する", "status": "pending", "completed_at": null},
+        {"task": "ACLの既存設定を確認する", "status": "pending", "completed_at": null}
+      ]
+    },
+    "4": {
+      "title": "UI・通知・レポート",
+      "topics": [
+        {"name": "Form", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "List", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "View", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Notification", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Report", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Dashboard", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null}
+      ],
+      "hands_on": [
+        {"task": "Formを変更する", "status": "pending", "completed_at": null},
+        {"task": "List表示を変更する", "status": "pending", "completed_at": null},
+        {"task": "Notificationを作成する", "status": "pending", "completed_at": null},
+        {"task": "条件付きNotificationを設定する", "status": "pending", "completed_at": null},
+        {"task": "Reportを作成する", "status": "pending", "completed_at": null},
+        {"task": "Reportの表示形式を変更する", "status": "pending", "completed_at": null},
+        {"task": "DashboardへReportを配置する", "status": "pending", "completed_at": null}
+      ]
+    },
+    "5": {
+      "title": "Flow・Import・Update Set",
+      "topics": [
+        {"name": "Flow Designer", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Trigger", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Action", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Import Set", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Transform Map", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Update Set", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null}
+      ],
+      "hands_on": [
+        {"task": "Record作成をTriggerとするFlowを作成する", "status": "pending", "completed_at": null},
+        {"task": "Actionを追加する", "status": "pending", "completed_at": null},
+        {"task": "条件分岐を追加する", "status": "pending", "completed_at": null},
+        {"task": "Flowをテストする", "status": "pending", "completed_at": null},
+        {"task": "CSVデータをImportする", "status": "pending", "completed_at": null},
+        {"task": "Transform Mapを確認する", "status": "pending", "completed_at": null},
+        {"task": "Update Setを作成する", "status": "pending", "completed_at": null},
+        {"task": "設定変更をUpdate Setへ記録する", "status": "pending", "completed_at": null}
+      ]
+    },
+    "6": {
+      "title": "総合ハンズオン",
+      "topics": [
+        {"name": "Table設計", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Field設計", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "User", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Group", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Role", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Form", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "List", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "ACL", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Notification", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Flow Designer", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Report", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Dashboard", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Update Set", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null}
+      ],
+      "hands_on": [
+        {"task": "問い合わせ管理のTableを設計する", "status": "pending", "completed_at": null},
+        {"task": "問い合わせ管理のFieldを設計する", "status": "pending", "completed_at": null},
+        {"task": "Userを構成する", "status": "pending", "completed_at": null},
+        {"task": "Groupを構成する", "status": "pending", "completed_at": null},
+        {"task": "Roleを構成する", "status": "pending", "completed_at": null},
+        {"task": "Formを構成する", "status": "pending", "completed_at": null},
+        {"task": "Listを構成する", "status": "pending", "completed_at": null},
+        {"task": "ACLを構成する", "status": "pending", "completed_at": null},
+        {"task": "Notificationを構成する", "status": "pending", "completed_at": null},
+        {"task": "Flow Designerで自動化する", "status": "pending", "completed_at": null},
+        {"task": "Reportを作成する", "status": "pending", "completed_at": null},
+        {"task": "Dashboardを作成する", "status": "pending", "completed_at": null},
+        {"task": "変更をUpdate Setへ記録する", "status": "pending", "completed_at": null}
+      ]
+    },
+    "7": {
+      "title": "CSA試験範囲の総復習",
+      "topics": [
+        {"name": "Platform Navigation", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Instance Configuration", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Database Management", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Platform Security", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Self-Service", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Automation", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Administration Fundamentals全般", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null}
+      ],
+      "hands_on": [
+        {"task": "Platform Navigationを「何か・設定場所・実操作」の3段階で確認する", "status": "pending", "completed_at": null},
+        {"task": "Instance Configurationを「何か・設定場所・実操作」の3段階で確認する", "status": "pending", "completed_at": null},
+        {"task": "Database Managementを「何か・設定場所・実操作」の3段階で確認する", "status": "pending", "completed_at": null},
+        {"task": "Platform Securityを「何か・設定場所・実操作」の3段階で確認する", "status": "pending", "completed_at": null},
+        {"task": "Self-Serviceを「何か・設定場所・実操作」の3段階で確認する", "status": "pending", "completed_at": null},
+        {"task": "Automationを「何か・設定場所・実操作」の3段階で確認する", "status": "pending", "completed_at": null},
+        {"task": "Administration Fundamentals全般を「何か・設定場所・実操作」の3段階で確認する", "status": "pending", "completed_at": null}
+      ]
+    },
+    "8": {
+      "title": "CSA直前対策",
+      "topics": [
+        {"name": "Table", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Dictionary", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Reference", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "User", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Group", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Role", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "ACL", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Import", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Transform", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Flow Designer", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Update Set", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Notification", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null},
+        {"name": "Report", "status": "pending", "mastery": null, "review_count": 0, "last_reviewed_on": null, "completed_at": null}
+      ],
+      "hands_on": [
+        {"task": "学習済み範囲のCSA形式理解度確認を行う", "status": "pending", "completed_at": null},
+        {"task": "主要な管理操作をServiceNow上で教材なしに確認する", "status": "pending", "completed_at": null}
+      ]
+    }
+  },
+  "topic_evidence": [],
+  "mastery_events": [],
+  "override_events": [],
+  "active_quiz": null,
+  "quiz_attempts": [],
+  "wrong_questions": [],
+  "last_study_date": null,
+  "active_exercise": null,
+  "exercise_history": [],
+  "active_session": null,
+  "sessions": [],
+  "updated_at": null
+}

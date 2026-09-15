@@ -1,0 +1,4 @@
+interface:
+  display_name: "ServiceNow CSA Learning Mentor"
+  short_description: "ServiceNow CSAの8週間学習・実機演習・弱点復習を継続支援"
+  default_prompt: "$servicenow-csa-learning-mentor を使い、保存済み進捗から今日のServiceNow CSA学習を始めてください。"
